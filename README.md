@@ -1,9 +1,15 @@
-link:
+## Spring EurekaClient LoadBalancer
+
+Sysot link:
 
     https://sysout.ru/mikroservisy-eureka-i-client-side-load-balancing/
     https://github.com/myluckagain/sysout/tree/master/cloud1
 
-###ZOO microservice
+GitHub links:
+
+    https://github.com/AnatolSalau/SpringEurekaClientBalance
+
+### ZOO microservice
 Client(User) get any animal
 port:
 
@@ -13,7 +19,7 @@ entrypoint:
 
     localhost:8081/animals/any
 
-###Random animal microservice
+### Random animal microservice
 Zoo microservice get random animals
 
 ports:

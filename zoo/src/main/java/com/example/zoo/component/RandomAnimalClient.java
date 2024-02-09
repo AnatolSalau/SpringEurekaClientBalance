@@ -16,7 +16,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 public class RandomAnimalClient {
       private final RestTemplate balancedRestTemplate;
       private final DiscoveryClient discoveryClient;
-
       private final RestTemplate restTemplate;
 
       @Autowired
