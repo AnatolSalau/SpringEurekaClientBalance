@@ -1,6 +1,4 @@
 package com.example.randomanimal.component;
-
-
 import dto.AnimalDto;
 import org.springframework.stereotype.Component;
 
