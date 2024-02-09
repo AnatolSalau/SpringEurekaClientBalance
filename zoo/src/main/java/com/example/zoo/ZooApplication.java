@@ -7,6 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class ZooApplication {
 
       public static void main(String[] args) {

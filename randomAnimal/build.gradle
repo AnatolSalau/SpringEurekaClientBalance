@@ -29,7 +29,11 @@ dependencies {
 
     //eureka
     // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.0'
+
+    //spring cloud
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-commons
+    implementation 'org.springframework.cloud:spring-cloud-commons:4.1.1'
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'

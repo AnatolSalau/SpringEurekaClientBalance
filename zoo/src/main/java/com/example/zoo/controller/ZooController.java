@@ -20,7 +20,7 @@ public class ZooController {
       @GetMapping("/animals/any")
       ResponseEntity<AnimalDto> getAnyAnimal(){
 
-            AnimalDto animalDto = randomAnimalClient.random();
+            AnimalDto animalDto = randomAnimalClient.randomByBalancedRestTemplate();
 
             return ResponseEntity
                   .ok()

@@ -9,7 +9,7 @@ port:
 
     8081
 
-entrypoints:
+entrypoint:
 
     localhost:8081/animals/any
 
